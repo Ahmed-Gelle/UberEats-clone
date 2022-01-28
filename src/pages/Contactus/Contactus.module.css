@@ -1,0 +1,115 @@
+.wrapper {
+  display: flex;
+  width: calc(100% - 2rem);
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 2rem);
+  padding: 3rem;
+  align-self: stretch;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  color: #000;
+}
+
+.container h1 {
+  font-size: 3rem;
+}
+.container form {
+  width: 100%;
+  box-sizing: border-box;
+}
+.RowOne {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  width: 100%;
+}
+.RowOne div {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.RowTwo {
+  display: flex;
+  justify-content: space-between;
+}
+.RowTwo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.container input {
+  width: 100%;
+  border: 1px solid #cccc;
+  padding: 1rem 0 1rem 1rem;
+  margin-right: 1rem;
+  display: flex;
+}
+.container input:focus {
+  outline: none;
+}
+.container textarea {
+  width: 100%;
+  border: 1px solid #cccc;
+  padding: 1rem 0 0 1rem;
+  display: flex;
+}
+.container textarea:focus {
+  outline: none;
+}
+.button {
+  background-color: #000;
+  margin-top: 1rem;
+  color: #fff;
+  min-width: calc(100% + 1rem);
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  cursor: pointer;
+}
+.container label {
+  margin: 1rem 0;
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin-top: 130px;
+  }
+  .RowOne {
+    flex-direction: column;
+    width: 100%;
+  }
+  .RowOne div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .RowTwo {
+    flex-direction: column;
+    width: 100%;
+  }
+  .RowTwo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .container textarea {
+    width: 100%;
+  }
+
+  .container input {
+    width: 100%;
+  }
+}

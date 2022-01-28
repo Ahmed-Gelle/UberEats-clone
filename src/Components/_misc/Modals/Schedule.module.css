@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  position: relative;
+}
+.container h3 {
+  font-size: 36px;
+}
+.close {
+  width: 24px;
+  position: absolute;
+  cursor: pointer;
+}
+.container select {
+  width: 100%;
+  border: none;
+  background-color: #eeee;
+  height: 48px;
+  padding: 0 2rem 0 2rem;
+  appearance: none;
+  background-image: url(../../../assets/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-size: 25px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.container select:focus {
+  outline: none;
+  border-bottom: 2px solid #000;
+}
+.container button {
+  width: 100%;
+  border: none;
+  margin: 0 0 1rem;
+  height: 56px;
+  cursor: pointer;
+}
+.primaryButton {
+  background-color: #000;
+  color: #fff;
+}

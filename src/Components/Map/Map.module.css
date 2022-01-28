@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 2rem;
+  width: calc(100% -2rem);
+  flex-wrap: wrap;
+  max-width: 1900px;
+  margin-top: 3rem;
+}
+.container h2 {
+  font-size: 32px;
+}
+.mapWrapper {
+  width: 100%;
+}
+.mapWrapper img {
+  width: 100%;
+}

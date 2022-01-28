@@ -1,0 +1,145 @@
+.Container {
+  background-color: #000;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 4rem 3rem;
+  box-sizing: border-box;
+  margin-top: 3rem;
+}
+.Container hr {
+  background-color: #f6f6f6;
+  height: 1px;
+  margin: 2rem 0;
+}
+.Container a {
+  text-decoration: none;
+  color: #fff;
+}
+.TopSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ImageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.download {
+  justify-self: flex-end;
+}
+.logo {
+  margin-bottom: 5rem;
+  height: 100%;
+}
+
+.RowWrapper {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.playstore {
+  width: 135px;
+}
+.firstRow ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.firstRow ul li {
+  color: #fff;
+  list-style: none;
+  cursor: pointer;
+
+  margin: 1rem 0;
+}
+.SecondRow ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.SecondRow ul li {
+  color: #fff;
+  list-style: none;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+.BottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.SocialMedia {
+  display: flex;
+}
+.socialIcon {
+  width: 16px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.listWrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.rowOne {
+  padding: 0;
+  display: flex;
+  margin-top: 0;
+}
+.rowOne li {
+  color: #fff;
+  list-style: none;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.rowTwo {
+  padding: 0;
+  display: flex;
+}
+.rowTwo li {
+  color: #fff;
+  list-style: none;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .TopSection {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .RowWrapper {
+    flex-direction: column;
+  }
+  .BottomSection {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .listWrapper {
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+  }
+  .listWrapper ul {
+    padding: 0;
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+  .rowOne li {
+    color: #fff;
+    list-style: none;
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+  .rowTwo li {
+    color: #fff;
+    list-style: none;
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+}

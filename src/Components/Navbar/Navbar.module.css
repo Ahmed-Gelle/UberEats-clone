@@ -1,0 +1,58 @@
+.wrapper {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0;
+}
+.container a {
+  text-decoration: none;
+  color: #000;
+}
+.scroll {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: #fff;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1920px;
+  padding: 0 2rem;
+  margin: 2rem auto;
+}
+.MenuAndLogo {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.Menu {
+  width: 20px;
+  cursor: pointer;
+}
+.Logo img {
+  cursor: pointer;
+  width: 150px;
+}
+.Logo span {
+  color: #000;
+}
+.button {
+  width: 96px;
+  height: 36px;
+  border: none;
+  border-radius: 20px;
+  color: #000;
+  background-color: #e2e2e2;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: #aeaeae;
+}
+@media (max-width: 420px) {
+  .Logo img {
+    width: 120px;
+  }
+}
